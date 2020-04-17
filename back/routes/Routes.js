@@ -4,8 +4,6 @@ const router = express.Router();
 const path = require('path');
 const pages = require("../../config/configs").pages;
 
-
-
 let Routes = class Routes {
 	constructor(app) {
 		this.app = app;

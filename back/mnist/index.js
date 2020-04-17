@@ -1,10 +1,9 @@
 const MnistDataset = require("./MnistDataset");
 const model = require("./model");
 const fs = require('fs');
-
-
 const mnistDataset = new MnistDataset();
 const modelPath = "models/mnist";
+
 createModel().then(()=> {
 	console.log("model created!!")
 });
