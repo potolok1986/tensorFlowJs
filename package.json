@@ -1,0 +1,26 @@
+{
+  "name": "my_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "startDev": "pm2-dev start pmdev.config.json",
+    "build": "webpack --config webpack.config.js --watch --progress",
+    "prod": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tensorflow/tfjs": "^1.7.2",
+    "@tensorflow/tfjs-node": "^1.7.2",
+    "html-webpack-plugin": "^4.2.0",
+    "jquery": "^3.5.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "~1.6.2"
+  }
+}
