@@ -1,3 +1,5 @@
 # Project exclude paths
 /build/src/
 /node_modules/
+/download
+/.idea
